@@ -4,15 +4,18 @@
 
 html {
   height:100vh;
+  background-color: antiquewhite;
+
 }
 
 body {
   height:100vh;
-  font-family: open sans;
+  font-family:Arial, Helvetica, sans-serif  ;
   display:flex;
   justify-content:center;
   align-items:center;
   color:#10214e;
+
 }
 
 article {
@@ -24,9 +27,14 @@ article {
   align-items:center;
   justify-content:flex-end;
   background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
-  box-shadow:0 0 20px 20px rgba(0,0,0,.1);
-  border-radius:1rem;
+ background-image: url(/Users/milanrolie/Documents/GitHub/your-tribe-profile-card/assets/MILAN.PNG);
+opacity: 80%;
+background-position: center;
+background-size: 600px;
+background-repeat: no-repeat;
+background-color: black;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  border-radius:1rem;
   position: relative;
   transition:.25s;
 }
@@ -37,12 +45,33 @@ header {
   justify-content:center;
   align-items:center;
   justify-content:flex-end;
+
+  
   
 }
 
 h1 {
   margin:2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: rgb(36, 44, 45);
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 1%;
+}
+
+  h2 {
+    margin:2rem 0 1rem;
+    color: rgb(239, 247, 247);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20%;
+    
+  
+  
 }
 
 button {
