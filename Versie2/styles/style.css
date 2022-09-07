@@ -3,7 +3,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 98vh;
   display: flex;
 }
 
@@ -42,6 +42,24 @@ h2 {
   z-index: 3;
 }
 
+h4 {
+  font-family: 'Poppins700', sans-serif;
+  font-size: 2em;
+  color: aliceblue;
+  margin-top: 1em;
+  margin-bottom: 0.3em;
+
+
+
+  }
+  p {
+    font-family: 'Poppins700', sans-serif;
+    font-size: 89%;
+    color: aliceblue;
+
+
+  }
+
 img {
 position: relative;
 width: 40vh;
@@ -53,14 +71,17 @@ transition: 0.4s
 
 }
 
+
+
 label{
-  position:relative;
+  position: relative;
    display:flex;
    flex-direction:column;
-   width:70px;
+   width:67px;
    cursor:pointer;
+   top: -128.5vh;
    z-index: 300;
-  top: 42vh; 
+ 
  }
  
  label span{
@@ -70,51 +91,75 @@ label{
    margin: 7px 0;
    transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
    z-index: 300;
+ 
+ 
+ }
+ .hamburger {
+ background-color: rgb(233, 229, 245);
+ position: relative;
+ z-index: 250;
+ height: 50vh;
+ top: -52.8vh;
+ left: -16px;
+ border-radius: 1em 4em 0em 1em;
+ transition: 2.5s;
+ width: 4vw;
+ font-family: 'Courier New', Courier, monospace;
+ padding: 1em;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 20px -12px;
+
+
+ 
+ }
+ 
+ #hamburger:checked ~ .hamburger {
+ width: 67vw;
+ left: -16px;
+ position: relative;
+ align-items: left;
+padding: 1em;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
+ }
+ 
+ .overmij {
+ opacity: 0%;
+ position: relative;
+ width: 10vw;
+ height: 44vh;
+ padding-left: 1em;
+ padding-bottom: 1em;
+ padding-top: 0.5em;
+ padding-right: 2em;
+ background-color: rgb(122, 107, 213);
+ border-radius:10px;
+ top: -103.5vh;
+ left: 17vh;
+  transition: 1.5s;
+  z-index: 500;
+  overflow: scroll;
+ 
  }
 
-
-
-.hamburger {
-
-  background-color: rgb(233, 229, 245);
-  position: relative;
-  height: 50vh;
-  z-index: 250;
-  left: -16px;
-  top: -173.2vh;
-  border-radius: 1em 4em 0em 1em;
-  transition: 2.5s;
-  width: 80px;
-  font-family: 'Courier New', Courier, monospace;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  padding: 1em;
+ #hamburger:checked ~ .overmij {
+  opacity: 100%;
+ position: relative;
+ width: 10vw;
+ height: 44vh;
+ padding-left: 1em;
+ padding-bottom: 1em;
+ padding-top: 0.5em;
+ padding-right: 2em;
+ background-color: rgb(122, 107, 213);
+ border-radius:10px;
+ top: -103.5vh;
+ left: 20vh;
+  transition: 1s;
+  transition-delay: .4s;
+  z-index: 500;
 }
-
-
-
-
-.hamburger:hover{
-  background-color: rgb(233, 229, 245);
-  position: relative;
-  height: 50vh;
-  z-index: 250;
-  left: -16px;
-  top: -173.2vh;
-  border-radius: 1em 4em 0em 1em;
-  transition: 2.5s;
-  width: 67vw;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  padding: 1em;
-  }
-
-
-
-
-
-
-/* DIT GAAT OVER HET BURGER ICOONTJE */
-
-
+ 
+/* BUTTON ZOOI */
+/* ----------------------------------- */
 
 span:nth-of-type(1){
   width:50%;
@@ -159,207 +204,9 @@ input[type="checkbox"]:checked ~ span:nth-of-type(3){
 }
 
 
-/* INFO UNITS */
-
-.textinham {
-  opacity: 0%;
-  position: fixed;
-  width: 10vw;
-  height: 350px;
-  padding-left: 1em;
-  padding-bottom: 1em;
-  padding-top: 0.5em;
-  padding-right: 2em;
-  background-color: rgb(122, 107, 213);
-  border-radius:10px;
-  top: 200px;
-  left: 300px;
-  z-index: 400;
-  transition: 1.5s;
-  
-  }
-  .textinham2 {
-    opacity: 0%;
-    position: fixed;
-    width: 10vw;
-    height: 350px;
-  
-    padding-left: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-    padding-right: 2em;
-    background-color: rgb(122, 107, 213);
-    border-radius:10px;
-    top: 200px;
-    left: 530px;
-    z-index: 400;
-    transition: 1.2s;
-    
-    }
-    .textinham3 {
-      opacity: 0%;
-      position: fixed;
-      width: 10vw;
-      height: 350px;
-  
-      padding-left: 1em;
-      padding-bottom: 1em;
-      padding-top: 0.5em;
-      padding-right: 2em;
-      background-color: rgb(122, 107, 213);
-      border-radius:10px;
-      top: 200px;
-      left: 760px;
-      z-index: 400;
-      transition: 0.9s;
-      
-      }
-  
-      .textinham4 {
-        opacity: 0%;
-        position: fixed;
-        width: 4vw;
-        height: 350px;
-  
-        padding-left: 1em;
-        padding-bottom: 1em;
-        padding-top: 0.5em;
-        padding-right: 2em;
-        background-color: rgb(122, 107, 213);
-        background-image: url(/Users/milanrolie/Documents/GitHub/your-tribe-profile-card/assets/milan.png);
-       background-size: cover;
-       background-position: center;
-        border-radius:10px;
-        top: 200px;
-        left: 990px;
-        z-index: 400;
-        transition: 0.6s;
-        
-        }
-  
-  #hamburger:checked ~ .textinham {
-    opacity: 100%;
-    position: fixed;
-    width: 10vw;
-    height: 350px;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-    padding-right: 2em;
-    background-color: rgb(122, 107, 213);
-    border-radius:10px;
-    top: 200px;
-    left: 350px;
-    z-index: 400;
-    transition: 1s;
-    transition-delay: 1s;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  }
-  
-  #hamburger:checked ~ .textinham2 {
-    opacity: 100%;
-    position: fixed;
-    width: 10vw;
-    height: 350px;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-    padding-right: 2em;
-    background-color: rgb(122, 107, 213);
-    border-radius:10px;
-    top: 200px;
-    left: 580px;
-    z-index: 400;
-    transition: 1s;
-    transition-delay: 1.3s;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  }
-  
-  #hamburger:checked ~ .textinham3 {
-    opacity: 100%;
-    position: fixed;
-    width: 10vw;
-    height: 350px;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-    padding-right: 2em;
-    background-color: rgb(122, 107, 213);
-    border-radius:10px;
-    top: 200px;
-    left: 810px;
-    z-index: 400;
-    transition: 1s;
-    transition-delay: 1.6s;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  }
-  
-  #hamburger:checked ~ .textinham4 {
-    opacity: 100%;
-    position: fixed;
-    width: 4vw;
-    height: 350px;
-    padding-left: 1em;
-    padding-bottom: 1em;
-    padding-top: 0.5em;
-    padding-right: 2em;
-    background-color: rgb(122, 107, 213);
-    border-radius:10px;
-    top: 200px;
-    left: 1040px;
-    z-index: 400;
-    transition: 1s;
-    transition-delay: 1.9s;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  }
-  
-  
-  
-  span:nth-of-type(1){
-    width:50%;
-    
-  }
-  
-  span:nth-of-type(2){
-    width:100%;
-  }
-  
-  
-  span:nth-of-type(3){
-    width:75%;
-   
-  }
-  
-  
-  input[type="checkbox"]{
-    display:none;
-  }
-  
-  
-  input[type="checkbox"]:checked ~ span:nth-of-type(1){
-    transform-origin:bottom;
-    transform:rotatez(45deg) translate(8px,0px)
-  }
-  
-  
-  input[type="checkbox"]:checked ~ span:nth-of-type(2){
-    
-    transform-origin:top;
-    transform:rotatez(-45deg)
-  }
-  
-  
-  input[type="checkbox"]:checked ~ span:nth-of-type(3){
-    
-    transform-origin:bottom;
-    width:50%;
-    transform: translate(30px,-11px) rotatez(45deg);
-  
-  }
 
 
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
