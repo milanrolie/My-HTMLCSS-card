@@ -107,9 +107,21 @@ label span{
 
 
 }
+.hamburger {
+background-color: rgb(233, 229, 245);
+position: relative;
+height: 454px;
+margin-top: -475px;
+z-index: 250;
+left: -16px;
+border-radius: 1em 4em 0em 1em;
+transition: 2.5s;
+width: 80px;
+font-family: 'Courier New', Courier, monospace;
+padding: 20%;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
 
-
-
+}
 
 #hamburger:checked ~ .hamburger {
 width: 67vw;
