@@ -11,7 +11,10 @@ body {
   width: 70vw;
   height: 470px;
   background-color: rgb(212, 213, 215);
-  background-image: url(/Users/milanrolie/Documents/GitHub/your-tribe-profile-card/Versie2/assets/wall.jpg);
+  background-image: url(assets/card-04.png);
+background-repeat: no-repeat;
+background-position: left;
+background-size: 80vw;
   border-radius: 1em;
   padding: 1em;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
@@ -42,6 +45,7 @@ h2 {
   position: relative;
   z-index: 3;
 }
+
 
 h4 {
   font-family: 'Poppins700', sans-serif;

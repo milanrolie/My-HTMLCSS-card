@@ -197,7 +197,7 @@ transition: 1.5s;
       padding-top: 0.5em;
       padding-right: 2em;
       background-color: rgb(122, 107, 213);
-      background-image: url(/Users/milanrolie/Documents/GitHub/your-tribe-profile-card/assets/milan.png);
+      background-image: url(assets/milan.png);
      background-size: cover;
      background-position: center;
       border-radius:10px;
