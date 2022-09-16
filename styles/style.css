@@ -60,6 +60,7 @@ p {
 
 }
 
+
 img {
   position: absolute;
   width: 35vh;
@@ -82,11 +83,9 @@ label {
   z-index: 600;
 
 
+
 }
 
-.goor {
-  flex-grow: 0.5;
-}
 
 label .hamburger-item {
   background: rgb(122, 107, 213);
@@ -97,8 +96,8 @@ label .hamburger-item {
   z-index: 300;
   margin-top: 40%;
 
-
 }
+
 
 .hamburger {
   background-color: rgb(233, 229, 245);
@@ -107,13 +106,12 @@ label .hamburger-item {
   top: 0px;
   left: -1em;
   border-radius: 1em 4em 0em 1em;
-  transition: 2.5s;
+  transition: 1s;
   width: 5vw;
   font-family: 'Courier New', Courier, monospace;
   padding: 3em;
   padding-top: 40px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 20px -12px;
-  overflow: hidden;
 
 }
 
@@ -125,14 +123,14 @@ label .hamburger-item {
   align-items: left;
   padding: 1em;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 50px -12px;
-  overflow: hidden;
+  transition-delay: 0.1s;
 
 }
 
 .overmij {
   opacity: 0%;
   position: relative;
-  width: 10vw;
+  width: 14vw;
   height: 44vh;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -140,20 +138,21 @@ label .hamburger-item {
   padding-right: 2em;
   background-color: rgb(122, 107, 213);
   border-radius: 10px;
-  top: -103.5vh;
-  left: 17vh;
-  transition: 1.5s;
-  transition-delay: 0.9s;
-
+  top: -8vh;
+  left: 0vh;
+  transition: .7s;
+  transition-delay: 0s;
   z-index: 500;
-  overflow: scroll;
+  
+  
+
 
 }
 
 #hamburger:checked~.overmij {
   opacity: 100%;
   position: relative;
-  width: 10vw;
+  width: 14vw;
   height: 44vh;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -161,9 +160,9 @@ label .hamburger-item {
   padding-right: 2em;
   background-color: rgb(122, 107, 213);
   border-radius: 10px;
-  top: -52vh;
+  top: -4vh;
   left: 20vh;
-  transition: 1s;
+  transition: .5s;
   transition-delay: .4s;
   z-index: 500;
 }
@@ -171,7 +170,7 @@ label .hamburger-item {
 .overmij2 {
   opacity: 0%;
   position: relative;
-  width: 10vw;
+  width: 14vw;
   height: 44vh;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -179,20 +178,21 @@ label .hamburger-item {
   padding-right: 2em;
   background-color: rgb(122, 107, 213);
   border-radius: 10px;
-  top: -10vh;
-  left: 22vh;
-  transition: 1.5s;
-  transition-delay: 0.4s;
-
+  top: -8vh;
+  left: 0vh;
+  transition: .7s;
+  transition-delay: 0s;
   z-index: 500;
   overflow: scroll;
+  
+
 
 }
 
 #hamburger:checked~.overmij2 {
   opacity: 100%;
   position: relative;
-  width: 10vw;
+  width: 14vw;
   height: 44vh;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -200,9 +200,9 @@ label .hamburger-item {
   padding-right: 2em;
   background-color: rgb(122, 107, 213);
   border-radius: 10px;
-  top: -99vh;
+  top: -48vh;
   left: 50vh;
-  transition: 1s;
+  transition: .5s;
   transition-delay: .4s;
   z-index: 500;
 }
@@ -210,7 +210,7 @@ label .hamburger-item {
 .overmij3 {
   opacity: 0%;
   position: relative;
-  width: 10vw;
+  width: 14vw;
   height: 44vh;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -218,19 +218,21 @@ label .hamburger-item {
   padding-right: 2em;
   background-color: rgb(122, 107, 213);
   border-radius: 10px;
-  top: -200vh;
-  left: 60vh;
-  transition: 1.5s;
-  transition-delay: 0.1s;
+  top: -8vh;
+  left: 0vh;
+  transition: .7s;
+  transition-delay: 0s;
   z-index: 500;
   overflow: scroll;
+  
+
 
 }
 
 #hamburger:checked~.overmij3 {
   opacity: 100%;
   position: relative;
-  width: 10vw;
+  width: 14vw;
   height: 44vh;
   padding-left: 1em;
   padding-bottom: 1em;
@@ -238,10 +240,10 @@ label .hamburger-item {
   padding-right: 2em;
   background-color: rgb(122, 107, 213);
   border-radius: 10px;
-  top: -146vh;
+  top: -92vh;
   left: 80vh;
-  transition: 1s;
-  transition-delay: 1s;
+  transition: .5s;
+  transition-delay: .4s;
   z-index: 500;
 }
 
