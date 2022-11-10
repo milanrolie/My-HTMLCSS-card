@@ -1,5 +1,7 @@
 Hallo! 
 
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/112857190/201028068-2f732f33-c1b4-4436-ba33-7c5b84706c79.png">
+
 In deze leertaak zitten meerdere deelataken. 
 
 Deeltaken: 		- Visuele Hiërarcie
